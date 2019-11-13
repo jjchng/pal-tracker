@@ -1,6 +1,7 @@
 package io.pivotal.pal.tracker;
 
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.Objects;
 
 public class TimeEntry {
@@ -85,6 +86,7 @@ public class TimeEntry {
     public LocalDate getDate() {
         return date;
     }
+
 
     public void setDate(LocalDate date) {
         this.date = date;
